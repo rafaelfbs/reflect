@@ -1,0 +1,65 @@
+{
+  "name": "gram-reflect",
+  "description": "A Reflection library for classes, methods and arguments.",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "tslint -c tslint.json src/**/*.ts",
+    "build": "tsc",
+    "release:pre": "npm run lint && npm run test && npm run build",
+    "release": "npm run release:pre && release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelfbs/gram-reflect.git"
+  },
+  "keywords": [
+    "reflection",
+    "javascript",
+    "classes",
+    "typescript",
+    "metadata"
+  ],
+  "author": "Rafael Ferrari <rafael.ferrari.bs@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelfbs/gram-reflect/issues"
+  },
+  "homepage": "https://github.com/rafaelfbs/gram-reflect#readme",
+  "jest": {
+    "transform": {
+      ".(ts)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "collectCoverageFrom": [
+      "**/*.{ts,js}",
+      "!**/node_modules/**",
+      "!**/tests/**",
+      "!**/coverage/**",
+      "!**/lib/**"
+    ]
+  },
+  "devDependencies": {
+    "@types/chance": "^0.7.33",
+    "@types/jest": "^19.2.3",
+    "@types/node": "^7.0.22",
+    "@types/reflect-metadata": "0.0.5",
+    "core-js": "^2.4.1",
+    "jest": "^20.0.4",
+    "reflect-metadata": "^0.1.10",
+    "release-it": "^2.7.3",
+    "ts-jest": "^20.0.4",
+    "tslint": "^5.3.2",
+    "tslint-eslint-rules": "^4.1.1",
+    "tsutils": "^1.6.0",
+    "typescript": "^2.3.3",
+    "vrsource-tslint-rules": "^5.1.0"
+  }
+}
