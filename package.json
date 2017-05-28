@@ -1,6 +1,6 @@
 {
-  "name": "gram-reflect",
-  "description": "A Reflection library for classes, methods and arguments.",
+  "name": "minigram-reflect",
+  "description": "A reflection library for classes, methods and arguments.",
   "main": "lib/index.js",
   "directories": {
     "test": "tests"
