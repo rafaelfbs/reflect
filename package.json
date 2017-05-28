@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafaelfbs/gram-reflect.git"
+    "url": "git+https://github.com/minigram/reflect.git"
   },
   "keywords": [
     "reflection",
@@ -26,9 +26,9 @@
   "author": "Rafael Ferrari <rafael.ferrari.bs@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rafaelfbs/gram-reflect/issues"
+    "url": "https://github.com/minigram/reflect/issues"
   },
-  "homepage": "https://github.com/rafaelfbs/gram-reflect#readme",
+  "homepage": "https://github.com/minigram/reflect#readme",
   "jest": {
     "transform": {
       ".(ts)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
@@ -61,5 +61,6 @@
     "tsutils": "^1.6.0",
     "typescript": "^2.3.3",
     "vrsource-tslint-rules": "^5.1.0"
-  }
+  },
+  "version": "1.0.0"
 }
