@@ -2,6 +2,7 @@
   "name": "minigram-reflect",
   "description": "A reflection library for classes, methods and arguments.",
   "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "directories": {
     "test": "tests"
   },
