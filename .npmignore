@@ -1,0 +1,16 @@
+node_modules/
+src/
+tests/
+\#*\#
+.\#*
+*.swp
+coverage/
+internal/
+**/.DS_Store
+.settings
+**/.vs
+**/.vscode
+!**/.vscode/tasks.json
+.idea
+yarn.lock
+**/*.log
