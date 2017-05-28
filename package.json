@@ -63,5 +63,5 @@
     "typescript": "^2.3.3",
     "vrsource-tslint-rules": "^5.1.0"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
